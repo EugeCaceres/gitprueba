@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,700&family=Poppins&display=swap');
+
+
+h1{
+    text-align: center;
+    background-color: rgba(6, 8, 8, 0);
+    color: rgb(63, 1, 60);
+    font-size: 50px;
+}
+
+body{
+    background-image: url("Imagenes/background\ index.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: auto;
+    color: rgb(63, 1, 60);
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    float: right;
+}
+
+.menu li{
+    margin-right: 25px;
+}
+
+.menu li:last-child{
+    margin-right: 10px;
+}
+
+.menu hr {
+    background-color: blueviolet;
+    margin-left: 400px;
+    height: 3px;
+    
+}
+
+.menu-dos {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    border: 1px;
+    background-color: rgba(137, 43, 226, 0.205);
+}
+
+.menu-dos ol {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.menu-dos li {
+    margin-bottom: 15px;
+}
+
+.Historia {
+
+    overflow: hidden;
+    margin-left: 260px;
+    margin-top: 150px;
+
+}
+
+.Historia h2  {
+ font-family: 'Lora', serif;
+}
+
+.Historia p {
+
+    font-family: 'Lora', serif;
+    text-align: justify;
+    text-align-last: justify;
+
+}
+#titulo-historia{
+
+    color: aqua;
+}
+.imagen-conejo {
+
+    object-fit: cover;/* para que las imagenes se vea mejor en caso de cambiar las medidas originales*/
+    width: 300px;
+    height: 300px;
+}
